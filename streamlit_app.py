@@ -10,7 +10,7 @@ dataframe = pd.DataFrame(google_sheets_table) # Convert google sheets table into
 
 # Define tabs
 #tab1, tab2 = st.tabs(["Table", "Graph"])
-tab1 = st.tabs("Table")
+tab1 = st.tabs(["Table"])
 
 
 # Streamlit content
