@@ -13,7 +13,7 @@ dataframe = pd.DataFrame(google_sheets_table) # Convert google sheets table into
 Hi there! This is a simple Google Sheets example on how to embed a dynamic table on a Medium blog post with Streamlit! 
 """
 
- Define tabs
+# Define tabs
 tab1, tab2 = st.tabs(["Table", "Graph"])
 
 # Streamlit content
