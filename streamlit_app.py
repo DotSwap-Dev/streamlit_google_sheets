@@ -14,13 +14,13 @@ Hi there! This is a simple Google Sheets example on how to embed a dynamic table
 """
 
 # Define tabs
-tab1, tab2 = st.tabs(["Table", "Graph"])
+#tab1, tab2 = st.tabs(["Table", "Graph"])
 
 # Streamlit content
-with tab1:
-  st.write(dataframe)
-with tab2:
-  st.line_chart(dataframe,x="Date", y="Close")
+#with tab1:
+#  st.write(dataframe)
+#with tab2:
+#  st.line_chart(dataframe,x="Date", y="Close")
 
 # Footer text
 """
